@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/solid-start",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "ctx-core helpers for solid-start",
 	"keywords": [
 		"ctx-core",

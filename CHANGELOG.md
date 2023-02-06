@@ -1,5 +1,11 @@
 # @ctx-core/solid-start
 
+## 1.0.3
+
+### Patch Changes
+
+- - templates/aws-entry.ts
+
 ## 1.0.2
 
 ### Patch Changes
