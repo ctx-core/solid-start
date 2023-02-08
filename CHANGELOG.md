@@ -1,5 +1,11 @@
 # @ctx-core/solid-start
 
+## 1.0.6
+
+### Patch Changes
+
+- @ctx-core/http: workspace:^9.1.2 -> 9.2.0
+
 ## 1.0.5
 
 ### Patch Changes
