@@ -1,5 +1,11 @@
 # @ctx-core/solid-start
 
+## 1.0.7
+
+### Patch Changes
+
+- @ctx-core/http: 9.2.1
+
 ## 1.0.6
 
 ### Patch Changes
