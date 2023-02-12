@@ -1,4 +1,4 @@
-import { ext_r_mime } from '@ctx-core/http'
+import { ext_R_mime } from '@ctx-core/http'
 import type { APIGatewayProxyEvent, APIGatewayProxyEventV2, APIGatewayProxyResult } from 'aws-lambda'
 import { type Stats } from 'fs'
 import { readFile, stat } from 'fs/promises'
@@ -33,7 +33,7 @@ export async function handler(
 		}
 	}
 	if (stats && stats.isFile()) {
-		const ContentType = ext_r_mime[extname(pathname)]
+		const ContentType = ext_R_mime[extname(pathname)]
 		const isBase64Encoded = isBase64Encoded_(event, ContentType)
 		const body = await readFile(fs_path)
 			.then($=>$.toString(isBase64Encoded ? 'base64' : undefined))
