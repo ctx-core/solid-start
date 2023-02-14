@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/solid-start",
-	"version": "1.0.10",
+	"version": "1.0.11",
 	"description": "ctx-core helpers for solid-start",
 	"keywords": [
 		"ctx-core",
@@ -31,7 +31,7 @@
 	},
 	"dependencies": {
 		"@ctx-core/object": "^24.1.4",
-		"solid-js": "^1.6.10"
+		"solid-js": "^1.6.11"
 	},
 	"devDependencies": {
 		"@ctx-core/http": "9.4.0",
