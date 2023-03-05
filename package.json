@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/solid-start",
-	"version": "1.0.28",
+	"version": "1.0.29",
 	"description": "ctx-core helpers for solid-start",
 	"keywords": [
 		"ctx-core",
@@ -39,7 +39,7 @@
 		"@types/aws-lambda": "^8.10.111",
 		"aws-lambda": "^1.0.7",
 		"c8": "^7.13.0",
-		"solid-start": "^0.2.22",
+		"solid-start": "^0.2.23",
 		"tsx": "^3.12.3",
 		"typescript": "next",
 		"uvu": "^0.5.6"
