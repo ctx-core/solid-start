@@ -1,5 +1,13 @@
 # @ctx-core/solid-start
 
+## 1.0.78
+
+### Patch Changes
+
+- @ctx-core/monorepo: ^20.3.3 -> ^20.3.4
+- Updated dependencies
+  - @ctx-core/object@27.4.23
+
 ## 1.0.77
 
 ### Patch Changes
