@@ -36,9 +36,9 @@
 	"devDependencies": {
 		"@ctx-core/http": "9.4.59",
 		"@solidjs/meta": "^0.28.5",
-		"@types/aws-lambda": "^8.10.117",
+		"@types/aws-lambda": "^8.10.119",
 		"aws-lambda": "^1.0.7",
-		"c8": "^7.14.0",
+		"c8": "^8.0.0",
 		"solid-start": "^0.2.26",
 		"tsx": "^3.12.7",
 		"typescript": "next",
