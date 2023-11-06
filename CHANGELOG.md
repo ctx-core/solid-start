@@ -1,5 +1,14 @@
 # @ctx-core/solid-start
 
+## 1.0.134
+
+### Patch Changes
+
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/object@29.0.0
+
 ## 1.0.133
 
 ### Patch Changes
