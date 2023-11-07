@@ -1,5 +1,11 @@
 # @ctx-core/solid-start
 
+## 1.0.135
+
+### Patch Changes
+
+- @types/aws-lambda: ^8.10.125 -> ^8.10.126
+
 ## 1.0.134
 
 ### Patch Changes
