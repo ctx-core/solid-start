@@ -3,8 +3,9 @@ import type { APIGatewayProxyEvent, APIGatewayProxyEventV2, APIGatewayProxyResul
 import { type Stats } from 'fs'
 import { readFile, stat } from 'fs/promises'
 import { dirname, extname, join, resolve } from 'path'
+// @ts-ignore
+import { splitCookiesString } from 'set-cookie-parser'
 import { type FetchEvent } from 'solid-start'
-import { splitCookiesString } from 'solid-start/node/fetch.js'
 import 'solid-start/node/globals.js'
 // @ts-ignore
 import { default as manifest } from '../../dist/client/route-manifest.json'
@@ -23,10 +24,10 @@ export async function handler(
 	const client_path = resolve(join(dirname(new URL(import.meta.url).pathname), '..', 'client'))
 	const pathname = url.pathname
 	const fs_path = join(client_path, pathname)
-	let stats:Stats
+	let stats:Stats|undefined = undefined
 	try {
 		stats = await stat(fs_path)
-	} catch (err) {
+	} catch (err:any) {
 		if (err.code !== 'ENOENT') {
 			console.trace(err)
 			throw err
@@ -61,7 +62,7 @@ export async function handler(
 		console.trace($)
 		throw $
 	})
-	const headers = {}
+	const headers:Record<string, string> = {}
 	for (const [name, value] of response.headers) {
 		headers[name] = value
 	}
@@ -69,14 +70,14 @@ export async function handler(
 		const header = /** @type {string} */ (response.headers.get('set-cookie'))
 		headers['set-cookie'] = splitCookiesString(header)
 	}
-	const isBase64Encoded = isBase64Encoded_(event, response.headers.get('Content-Type'))
+	const isBase64Encoded = isBase64Encoded_(event, response.headers.get('Content-Type') || '')
 	const _body = await response.text()
 	const body = isBase64Encoded ? Buffer.from(_body).toString('base64') : _body
 	return {
 		statusCode: response.status,
 		headers: headers,
 		body,
-		isBase64Encoded: isBase64Encoded_(event, response.headers.get('Content-Type')),
+		isBase64Encoded: isBase64Encoded_(event, response.headers.get('Content-Type') || ''),
 	}
 	function createRequest(event:APIGatewayProxyEvent|APIGatewayProxyEventV2) {
 		const headers = new Headers()
