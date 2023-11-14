@@ -1,5 +1,13 @@
 # @ctx-core/solid-start
 
+## 1.1.2
+
+### Patch Changes
+
+- fix: missing tsconfig.json
+- Updated dependencies
+  - @ctx-core/object@30.1.2
+
 ## 1.1.1
 
 ### Patch Changes
