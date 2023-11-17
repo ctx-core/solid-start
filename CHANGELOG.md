@@ -1,5 +1,14 @@
 # @ctx-core/solid-start
 
+## 1.1.8
+
+### Patch Changes
+
+- tsx: ^4.1.2 -> ^4.1.3
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/object@30.4.1
+
 ## 1.1.7
 
 ### Patch Changes
