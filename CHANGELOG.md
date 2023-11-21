@@ -1,5 +1,11 @@
 # @ctx-core/solid-start
 
+## 1.1.20
+
+### Patch Changes
+
+- @ctx-core/object: ^31.1.1 -> ^31.1.2
+
 ## 1.1.19
 
 ### Patch Changes
