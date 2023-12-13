@@ -1,5 +1,11 @@
 # @ctx-core/solid-start
 
+## 1.1.53
+
+### Patch Changes
+
+- @solidjs/meta: ^0.29.1 -> ^0.29.3
+
 ## 1.1.52
 
 ### Patch Changes
