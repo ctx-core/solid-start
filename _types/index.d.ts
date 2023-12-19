@@ -1,4 +1,4 @@
-import type { Ctx } from '@ctx-core/object'
+import type { Ctx } from 'ctx-core/be'
 import type { APIEvent, FetchEvent, PageEvent, ServerFunctionEvent } from 'solid-start'
 export type FetchEvent_w_ctx_T = (FetchEvent|ServerFunctionEvent|APIEvent|PageEvent)&{
 	locals:FetchEvent__locals_T
