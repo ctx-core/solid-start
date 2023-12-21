@@ -51,8 +51,8 @@ export async function handler(
 	}
 	const clientAddress =
 		(event as APIGatewayProxyEvent).requestContext.identity
-		? (event as APIGatewayProxyEvent).requestContext.identity.sourceIp
-		: (event as APIGatewayProxyEventV2).requestContext.http.sourceIp
+			? (event as APIGatewayProxyEvent).requestContext.identity.sourceIp
+			: (event as APIGatewayProxyEventV2).requestContext.http.sourceIp
 	const response = await server({
 		request: createRequest(event),
 		clientAddress,
@@ -95,8 +95,8 @@ export async function handler(
 		if (method !== 'GET' && method !== 'HEAD' && event.body) {
 			init.body =
 				event.isBase64Encoded
-				? Buffer.from(event.body, 'base64').toString()
-				: event.body
+					? Buffer.from(event.body, 'base64').toString()
+					: event.body
 		}
 		return new Request(url.href, init)
 	}
