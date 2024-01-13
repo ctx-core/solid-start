@@ -1,5 +1,11 @@
 # @ctx-core/solid-start
 
+## 1.1.82
+
+### Patch Changes
+
+- solid-js: ^1.8.10 -> ^1.8.11
+
 ## 1.1.81
 
 ### Patch Changes

@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/solid-start",
-	"version": "1.1.81",
+	"version": "1.1.82",
 	"description": "ctx-core helpers for solid-start",
 	"keywords": [
 		"ctx-core",
@@ -38,14 +38,14 @@
 	},
 	"dependencies": {
 		"ctx-core": "^5.18.0",
-		"solid-js": "^1.8.10"
+		"solid-js": "^1.8.11"
 	},
 	"devDependencies": {
 		"@ctx-core/http": "9.5.80",
 		"@solidjs/meta": "^0.29.3",
 		"@types/aws-lambda": "^8.10.131",
 		"aws-lambda": "^1.0.7",
-		"c8": "^9.0.0",
+		"c8": "^9.1.0",
 		"solid-start": "^0.3.10",
 		"tsx": "^4.7.0",
 		"typescript": "next",
