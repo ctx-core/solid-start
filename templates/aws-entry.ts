@@ -1,8 +1,8 @@
 import { ext_R_mime } from '@ctx-core/http'
 import type { APIGatewayProxyEvent, APIGatewayProxyEventV2, APIGatewayProxyResult } from 'aws-lambda'
-import { type Stats } from 'fs'
-import { readFile, stat } from 'fs/promises'
-import { dirname, extname, join, resolve } from 'path'
+import { type Stats } from 'node:fs'
+import { readFile, stat } from 'node:fs/promises'
+import { dirname, extname, join, resolve } from 'node:path'
 // @ts-ignore
 import { splitCookiesString } from 'set-cookie-parser'
 import { type FetchEvent } from 'solid-start'

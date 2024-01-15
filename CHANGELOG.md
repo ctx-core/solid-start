@@ -1,5 +1,13 @@
 # @ctx-core/solid-start
 
+## 1.1.89
+
+### Patch Changes
+
+- import nodejs core modules using node: prefix
+- Updated dependencies
+  - ctx-core@5.18.8
+
 ## 1.1.88
 
 ### Patch Changes
