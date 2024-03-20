@@ -1,5 +1,13 @@
 # @ctx-core/solid-start
 
+## 1.1.162
+
+### Patch Changes
+
+- package.json: author: url,email
+- Updated dependencies
+  - ctx-core@6.6.1
+
 ## 1.1.161
 
 ### Patch Changes
