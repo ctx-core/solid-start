@@ -1,5 +1,11 @@
 # @ctx-core/solid-start
 
+## 1.1.194
+
+### Patch Changes
+
+- ctx-core: ^7.2.10 -> ^7.2.11
+
 ## 1.1.193
 
 ### Patch Changes
