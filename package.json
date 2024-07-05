@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/solid-start",
-	"version": "1.1.209",
+	"version": "1.1.210",
 	"description": "ctx-core helpers for solid-start",
 	"keywords": [
 		"ctx-core",
@@ -41,17 +41,17 @@
 		"disable:test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"ctx-core": "^7.2.26",
+		"ctx-core": "^7.2.27",
 		"solid-js": "^1.8.18"
 	},
 	"devDependencies": {
-		"@ctx-core/http": "9.5.198",
+		"@ctx-core/http": "9.5.199",
 		"@solidjs/meta": "^0.29.4",
 		"@types/aws-lambda": "^8.10.140",
 		"aws-lambda": "^1.0.7",
 		"c8": "^10.1.2",
 		"solid-start": "^0.3.11",
-		"tsx": "^4.16.0",
+		"tsx": "^4.16.2",
 		"typescript": "next",
 		"uvu": "^0.5.6"
 	},
