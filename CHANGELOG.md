@@ -1,5 +1,14 @@
 # @ctx-core/solid-start
 
+## 1.1.213
+
+### Patch Changes
+
+- @types/aws-lambda: ^8.10.141 -> ^8.10.142
+- solid-js: ^1.8.18 -> ^1.8.19
+- Updated dependencies
+  - ctx-core@7.2.29
+
 ## 1.1.212
 
 ### Patch Changes
