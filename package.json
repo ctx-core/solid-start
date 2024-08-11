@@ -45,7 +45,7 @@
 		"solid-js": "^1.8.20"
 	},
 	"devDependencies": {
-		"@ctx-core/http": "9.5.201",
+		"@ctx-core/http": "9.5.202",
 		"@solidjs/meta": "^0.29.4",
 		"@types/aws-lambda": "^8.10.143",
 		"aws-lambda": "^1.0.7",
