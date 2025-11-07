@@ -41,17 +41,17 @@
 		"disable:test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"ctx-core": "^7.2.32",
-		"solid-js": "^1.8.22"
+		"ctx-core": "*",
+		"solid-js": "^1.9.10"
 	},
 	"devDependencies": {
-		"@ctx-core/http": "9.5.204",
+		"@ctx-core/http": "*",
 		"@solidjs/meta": "^0.29.4",
-		"@types/aws-lambda": "^8.10.145",
+		"@types/aws-lambda": "^8.10.157",
 		"aws-lambda": "^1.0.7",
-		"c8": "^10.1.2",
+		"c8": "^10.1.3",
 		"solid-start": "^0.3.11",
-		"tsx": "^4.19.0",
+		"tsx": "^4.20.6",
 		"typescript": "next",
 		"uvu": "^0.5.6"
 	},
