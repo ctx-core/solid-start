@@ -1,5 +1,13 @@
 # @ctx-core/solid-start
 
+## 1.1.218
+
+### Patch Changes
+
+- chore: migrate scripts from pnpm to bun
+- Updated dependencies
+  - ctx-core@7.2.34
+
 ## 1.1.217
 
 ### Patch Changes
