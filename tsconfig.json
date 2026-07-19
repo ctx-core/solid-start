@@ -6,10 +6,12 @@
 		"target": "ESNext",
 		"strict": true,
 		"jsxImportSource": "solid-js",
-		"jsx": "preserve"
+		"jsx": "preserve",
+		"skipLibCheck": true
 	},
 	"exclude": [
-		"node_modules"
+		"node_modules",
+		"templates"
 	],
 	"references": []
 }
